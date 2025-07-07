@@ -1,0 +1,15 @@
+[project]
+name = "timeflow"
+version = "0.1.0"
+description = "Self-hosted backend API for timelapse tracking app (images, videos, evolution)"
+authors = [{ name = "Hugo", email = "hugo.bergerat2002@gmail.com" }]
+requires-python = ">=3.9"
+
+dependencies = [
+  "asyncpg>=0.30.0",
+  "fastapi[standard]",
+  "pydantic-settings>=2.10.1",
+  "python-dotenv>=1.1.1",
+  "sqlalchemy[asyncio]>=2.0.41",
+  "sqlmodel>=0.0.24",
+]
